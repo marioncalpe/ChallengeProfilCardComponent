@@ -6,15 +6,38 @@
     align-items: center
     height: 100%
     width: 100%
-    
+    font-family: Poppins
     .popup
         display: flex
+        align-items: center
+        gap: 5px
         background-color: #fff
         .pp
             img
-                max-width: 250px
-                height: 250px
+                max-width: 200px
+                height: 200px
                 object-fit: cover
                 object-position: center
                 border-radius: 100%
                 border: 10px solid #E6E6E6
+        .info
+            .name
+                font-family: Merriweather
+                font-weight: bold
+            .stats
+                display: flex
+                gap: 10px
+                .info
+                    display: flex
+                    flex-direction: column
+                    justify-content: center
+                    align-items: center
+                .sep
+                    width: 2px
+                    background-color: #000000
+            .button
+                .follow
+                    background-color: #6bc0e2
+                    border-radius: 10px
+                .view
+                    background-color: #e2a46b
